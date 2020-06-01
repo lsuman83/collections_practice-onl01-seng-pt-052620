@@ -15,7 +15,7 @@ end
 
 #4
 def swap_elements (array)
-  array.sort {word[1] <=> word[2]
+  array.sort 
 end
 
 #5
