@@ -15,7 +15,8 @@ end
 
 #4
 def swap_elements (array)
-  array.each 
+  array[1] = array[2]
+  array[2] = array[1]
 end
 
 #5
