@@ -15,7 +15,7 @@ end
 
 #4
 def swap_elements (array)
-  array.at[1] <=> array.at[2]
+  array[0] + array[2] + array[1]
 end
 
 #5
