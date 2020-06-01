@@ -26,7 +26,7 @@ end
 #6
 def kesha_maker (array)
   array.each do |word|
-    word.sub(word[2], '$')
+    word.gsub(/[a-z]/) {|letter| letter[2]}
   end
 end
 
