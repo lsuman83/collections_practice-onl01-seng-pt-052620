@@ -30,7 +30,7 @@ end
 
 #7
 def find_a (array)
-  array.select {|word| word.starts_with? ("a")}
+  array.select {|word| word.start_with? ("a")}
 end
 
 #8
