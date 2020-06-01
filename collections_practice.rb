@@ -49,9 +49,8 @@ def add_s (array)
   index = 0
   new_array = []
   array.collect do |x| 
-    new_array << x + "s"
     next if x == 'feet'
-    
+    new_array << x + "s"
   end
   new_array
 end
