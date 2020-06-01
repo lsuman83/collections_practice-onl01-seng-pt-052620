@@ -15,7 +15,7 @@ end
 
 #4
 def swap_elements (array)
-  array.sort_by {|x| x[2}
+  array.sort_by {|x| x[2]}
 end
 
 #5
