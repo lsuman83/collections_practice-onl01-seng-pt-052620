@@ -15,7 +15,7 @@ end
 
 #4
 def swap_elements (array)
-  array.sort_by {|word| word.last(2)}
+  array.at[1] <=> array.at[2]
 end
 
 #5
