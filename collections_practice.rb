@@ -50,7 +50,7 @@ def add_s (array)
   new_array = []
   array.each do |x| 
     next if x == 'feet'
-    x + "s"
+    new_array << x + "s"
   end
-  array
+  new_array
 end
