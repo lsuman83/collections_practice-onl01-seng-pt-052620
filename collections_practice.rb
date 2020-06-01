@@ -47,7 +47,7 @@ end
 def add_s (array)
   
   index = 0
-  array.map do |x| 
+  array.map! do |x| 
     x + "s"
     if index == 2
       next
