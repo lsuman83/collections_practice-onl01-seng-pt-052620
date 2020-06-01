@@ -53,4 +53,5 @@ def add_s (array)
       next
     end
     index += 1
+  end
 end
