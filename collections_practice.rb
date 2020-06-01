@@ -49,12 +49,7 @@ def add_s (array)
   index = 0
   new_array = []
   array.collect do |x| 
-    new_array << x + "s"
-    if index == 1
-      next
-    end
-    
-    index += 1
+    x + "s"
   end
-  new_array
+  array
 end
