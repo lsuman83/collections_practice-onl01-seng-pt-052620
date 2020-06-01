@@ -45,5 +45,11 @@ end
 
 #9
 def add_s (array)
-  array.collect {|x| x + "s"}
+  
+  index = 0
+  array.collect do |x| 
+    x + "s"
+    if index == 2
+      next
+    end
 end
