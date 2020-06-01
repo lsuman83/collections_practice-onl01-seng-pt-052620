@@ -52,4 +52,5 @@ def add_s (array)
     if index == 2
       next
     end
+    index += 1
 end
